@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-top.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: -30% , 120% -50%; 
+    background-color: #008c96;
+    background-size: 1100px, 1100px;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    text-align: center;
+}
+.image .profile-image{
+    margin-top: 100px;
+    border-radius: 100%;
+    border: 4px solid #FFFFFF;
+}
+.card{
+    border-radius: 4%;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    width: 320px;
+    height: auto;
+    background-color: #FFFFFF;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+}
+
+.card-body{
+    text-align: center;
+    margin: 0 auto;
+}
+.card-body h3{
+    display: inline;
+}
+.card-body .age{
+    margin-left: 10px;
+    font-size: 22px;
+    color: #757f80;
+}
+h5{
+    color: #757f80;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+}
+.social-center{
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media(max-width:1024px){
+    body{
+        background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-top.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100% 70% , 20% -50%; 
+        background-color: #008c96;
+        background-size: 1100px, 1100px;
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        text-align: center;
+    }
+    .image .profile-image{
+        margin-top: 100px;
+        border-radius: 100%;
+        border: 4px solid #FFFFFF;
+    }
+    .card{
+        border-radius: 4%;
+        margin: 0 auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        width: 320px;
+        height: auto;
+        background-color: #FFFFFF;
+        background-image: url(../images/bg-pattern-card.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);    
+    }
+    
+    .card-body{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card-body h3{
+        display: inline;
+    }
+    .card-body .age{
+        margin-left: 10px;
+        font-size: 22px;
+        color: #757f80;
+    }
+    h5{
+        color: #757f80;
+    }
+    .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px !important;
+        margin-bottom: 30px !important;
+    }
+    .social-center{
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    body{
+        background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-top.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100% 70% , 20% -50%; 
+        background-color: #008c96;
+        background-size: 1100px, 1100px;
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        text-align: center;
+    }
+    .image .profile-image{
+        margin-top: 100px;
+        border-radius: 100%;
+        border: 4px solid #FFFFFF;
+    }
+    .card{
+        border-radius: 4%;
+        margin: 0 auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        width: 300px;
+        height: auto;
+        background-color: #FFFFFF;
+        background-image: url(../images/bg-pattern-card.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);    
+    }
+    
+    .card-body{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card-body h3{
+        display: inline;
+    }
+    .card-body .age{
+        margin-left: 10px;
+        font-size: 22px;
+        color: #757f80;
+    }
+    h5{
+        color: #757f80;
+    }
+    .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px !important;
+        margin-bottom: 30px !important;
+    }
+    .social-center{
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
